@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "wayob-ai-signals"
+version = "0.1.0"
+description = ""
+authors = ["Jaime Morillo  <jaimorile@hotmail.es>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+langchain = "^0.2.3"
+langchain-community = "^0.2.4"
+langchain-openai = "^0.1.8"
+pypdf = "^4.2.0"
+faiss-cpu = "^1.8.0"
+langchain-elasticsearch = "^0.2.2"
+html2text = "^2024.2.26"
+beautifulsoup4 = "^4.12.3"
+langchainhub = "^0.1.20"
+kafka-python = "^2.0.2"
+python-telegram-bot = "^21.3"
+elasticsearch = "^8.14.0"
+fastapi = "^0.111.0"
+pydantic = "1.10.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
